@@ -1,0 +1,224 @@
+.main{
+    background-color: black;
+    height: 800px;
+}
+.container-judul{
+    padding-left: 2vw;
+    border-bottom: 0.2vw solid white;
+    margin-bottom: 1vw;
+}
+.judul{
+    font-size: 2vw;
+    font-family: 'Roboto';
+    color: white;
+}
+.pertanyaan1{
+    font-family: 'Roboto';
+    font-style: bold;
+    padding-left: 2vw;
+    margin-bottom: 0.1vw;
+}
+.isi-nama{
+    display: flex;
+    flex-direction: row;
+}
+.bintang{
+    color: red;
+}
+.penjelasan{
+    padding-left: 2vw;
+    font-family: 'Roboto';
+    font-weight: 200;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.1vw;
+    margin-bottom: 1vw;
+}
+.first{
+    margin-right: 20vw;
+    color: white;
+}
+.last{
+    color: white;
+}
+.Radio{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input[type="text1"]{
+    margin-right:2vw;
+    width: 19.8vw;
+    border-radius: 3px;
+    height: 35px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding-left: 5px;
+}
+input[type="email1"]{
+    height: 40px;
+    width: 41.5vw;
+    border-radius: 3px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: #fff;
+    padding-left: 5px;
+}
+input[type="radio"] {
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.pertanyaan2{
+    font-family: 'Roboto';
+    padding-left: 2vw;
+    margin-bottom: 2vw;
+}
+.pertanyaan3{
+    font-family: 'Roboto';
+    padding-left: 2vw;
+    margin-bottom: 1vw;
+}
+.pertanyaan4{
+    font-family: 'Roboto';
+    margin-top: 0px;
+}
+.kotak{
+    border: 0.1vw dashed white;
+    width: 41.5vw;
+    height: 20vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
+    font-family: 'Roboto';
+}
+.Radio{
+    font-size: 1.5vw;
+    color: white;
+}
+#myForm{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vw;
+}
+.bagian1{
+    margin-right: 10vw;
+}
+
+input[type="text1"]:focus{
+    border:  solid rgb(243, 182, 100);
+    outline: none;
+}
+
+input[type="email1"]:focus{
+    border:  solid rgb(243, 182, 100);
+    outline: none;
+}
+
+input[type="text2"]:focus{
+    border:  solid rgb(243, 182, 100);
+    outline: none;
+}
+input[type="radio"] {
+    display: none; 
+  }
+  
+  
+  input[type="radio"] + label {
+    position: relative;
+    padding-left: 30px; 
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  
+  input[type="radio"] + label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 14px; 
+    height: 14px;
+    border-radius: 50%;
+    border: none; 
+    background-color: #fff; 
+    box-sizing: border-box;
+  }
+  
+  
+  input[type="radio"]:checked + label::before {
+    background-color: orange; 
+    border-color: orange;
+  }
+  
+input[type="text2"]{
+    width: 40vw;
+    height: 33.5vw;
+    font-size: 1vw;
+    border-radius: 3px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding-top: 0;
+    padding-bottom: 500px;
+    padding-left: 10px;
+    font-size: 1vw;
+}
+label{
+    font-size: 1.5vw;
+    color: white;
+}
+label.general{
+    font-size: 1.3vw;
+    color: white;
+}
+label.bug{
+    font-size: 1.3vw;
+    color: white;
+}
+#send-button{
+    margin-top: 38vw;
+    margin-left: -6vw;
+    border-radius: 20vw;
+    width: 6vw;
+    height: 3vw;
+    font-family: 'Roboto';
+    font-size: 1.5vw;
+    color: white;
+    font-style: bold;
+    border: 0px white;
+    background-color: rgb(169, 169, 169);
+}
+input[type="Name"],input[type="Name2"]{
+    width: 20vw;
+    height: 2vw;
+    font-size: 1vw;
+    font-family: 'Roboto';
+}
+input[type="Email"]{
+    width: 41.5vw;
+    height: 2vw;
+    font-size: 1vw;
+    font-family: 'Roboto';
+}
+
+.thank-you{
+    font-family: 'Roboto';
+    font-size: 2.5vw;
+    color: rgb(243, 182, 100);
+}
+.ticket-number{
+    font-family: 'Roboto';
+    color: rgb(243, 238, 234);
+    font-size: 1.5vw;
+}
+.thankyou-message{
+    padding: 10vw;
+    align-items: center;
+    justify-content: center;
+    padding-left: 28vw;
+}
+.Number{
+    padding-left: 17vw;
+}
