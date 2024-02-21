@@ -88,7 +88,9 @@ export function FormPage() {
                                     <input type="radio" id="general" name="Topic" value="General" checked={formData.Topic==="General"} onChange={handleInput} />
                                     <label className="general" htmlFor="general">General</label><br />
                                     <input type="radio" id="bug" name="Topic" value="Bug" checked={formData.Topic === "Bug"} onChange={handleInput} />
-                                    <label className="bug" htmlFor="bug">Bug</label>
+                                    <label className="bug" htmlFor="bug">Bug</label><br />
+                                    <input type="radio" id="feedback" name="Topic" value="Feedback" checked={formData.Topic === "Feedback"} onChange={handleInput} />
+                                    <label className="feedback" htmlFor="feedback">Feedback</label>
                                 </div>
                             </div>
                         </div>
